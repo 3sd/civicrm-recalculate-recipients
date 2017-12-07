@@ -8,7 +8,7 @@ This extension causes the recipients of a mailing to be recalculated just before
 
 ## Health warning: this extension is not ACL friendly
 
-You should probably not use this extension if you are relying on ACLs to limit the contacts to which CiviMail users can send. As it stands as the CiviMail author's ACLs are not taken into account when the recipients are recalculated (see issue #1 for more details).
+You should probably not use this extension if you are relying on ACLs to limit the contacts to which CiviMail users can send. As it stands as the CiviMail author's ACLs are not taken into account when the recipients are recalculated (see [issue #1](https://github.com/3sd/civicrm-recalculate-recipients/issues/1) for more details).
 
 ## Contributions and improvements
 
