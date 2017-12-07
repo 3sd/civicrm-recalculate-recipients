@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<extension key="recalculate-recipients" type="module">
+<extension key="civicrm-recalculate-recipients" type="module">
   <file>recalculate_recipients</file>
   <name>Recalculate Recipients</name>
   <description>Recalculates the recipients of a mailing just before it is sent</description>
