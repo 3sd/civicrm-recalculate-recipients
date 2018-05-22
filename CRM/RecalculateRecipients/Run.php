@@ -10,7 +10,7 @@ class CRM_RecalculateRecipients_Run{
     $mailings = array_unique($mailings);
     foreach($mailings as $mailing_id){
       $mailing = civicrm_api3('mailing', 'getsingle', ['id' => $mailing_id]);
-      CRM_Mailing_BAO_Mailing::getRecipients($mailing['id'], $mailing['id'], TRUE, $mailing['dedupe_email'], NULL);
+      CRM_Mailing_BAO_Mailing::getRecipients($mailing['id']);
     }
   }
 }
