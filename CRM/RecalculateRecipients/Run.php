@@ -3,7 +3,11 @@ class CRM_RecalculateRecipients_Run{
   static function run(){
 
     $currentTime = date('YmdHis');
-    $jobs = civicrm_api3('MailingJob', 'get', ['status' =>  'scheduled', 'scheduled_date' => ['<=' => $currentTime]]);
+    $jobs = civicrm_api3('MailingJob', 'get', [
+      'status' =>  'scheduled',
+      'scheduled_date' => ['<=' => $currentTime],
+      'option.limit' => 0
+    ]);
     foreach($jobs['values'] as $job){
       $mailings[] = $job['mailing_id'];
     }
