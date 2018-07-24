@@ -37,6 +37,10 @@ Note: for help on installing extensions, consult the [extensions chapter of the 
 
 Recalculate recipients is a simple extension with no configuration options. Once enabled it will start working automatically; recalculating recipients just before each mailing is sent. To stop recalculating recipients, simply disable the extension.
 
+## Help
+
+If you have any questions regarding this extension that are not answered in this README [or in the documentation], please check post a question on http://civicrm.stackexchange.com or contact info@thirdsectordesign.org.
+
 ## Credits
 
 This extension has been developed by [Michael McAndrew](https://twitter.com/michaelmcandrew) from [Third Sector Design](https://thirdsectordesign.org/) who you can [contact](https://thirdsectordesign.org/contact) for help, support and further development.
