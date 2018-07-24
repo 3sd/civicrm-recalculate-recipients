@@ -39,7 +39,7 @@ Recalculate recipients is a simple extension with no configuration options. Once
 
 ## Help
 
-If you have any questions regarding this extension that are not answered in this README [or in the documentation], please check post a question on http://civicrm.stackexchange.com or contact info@thirdsectordesign.org.
+If you have any questions regarding this extension that are not answered in this README, please check post a question on http://civicrm.stackexchange.com or contact info@thirdsectordesign.org.
 
 ## Credits
 
