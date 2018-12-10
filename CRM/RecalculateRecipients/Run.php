@@ -2,6 +2,7 @@
 class CRM_RecalculateRecipients_Run{
   static function run(){
 
+    $mailings = $jobs = [];
     $currentTime = date('YmdHis');
     try {
       $jobs = civicrm_api3('MailingJob', 'get', [
