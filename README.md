@@ -6,17 +6,17 @@ This means that any contacts that are added or removed to your groups in the tim
 
 This extension causes the recipients of a mailing to be recalculated just before the mail is sent out meaning you'll be sending based on the most up to date recipients.
 
-## Heath warning
+## Health warning
 
 **Recalculate recipients is currently in beta - use at your own risk.**
 
-The extension has been in production in at least one organisation for 3 months without issue. We we have not had any reports of it breaking anything from other organisations but even so, it has not been widely tested.
+The extension has been in production at several organisations for years without issue. We have not had any reports of it breaking anything from other organisations but even so, it has not been widely tested.
 
 *If this extension does work for you, please feedback by creating an issue in the github repostory with details of your use case. Once we have received a few positive reviews, we will move it out of beta.*
 
 ### Not ACL friendly
 
-This extension is not ACL friendly. The CiviMail author's ACLs are not taken into account when the recipients are recalculated (see [issue #1](https://github.com/3sd/civicrm-recalculate-recipients/issues/1) for more details).
+This extension is not ACL friendly. The CiviMail author's ACLs are not taken into account when the recipients are recalculated, meaning thie extension does not limit to the contacts in a group that the user scheduling a mailing is able to view (see [issue #1](https://github.com/3sd/civicrm-recalculate-recipients/issues/1) for more details).
 
 Not not use it if you are relying on ACLs to limit the contacts to which CiviMail users can send
 
