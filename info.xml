@@ -22,5 +22,6 @@
   </compatibility>
   <civix>
     <namespace>CRM/RecalculateRecipients</namespace>
+    <format>22.05.2</format>
   </civix>
 </extension>
