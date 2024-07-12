@@ -2,6 +2,18 @@
 class CRM_RecalculateRecipients_Run{
   static function run(){
 
+    // If ACLs have been configured and we re-calculate the recipients via a cron
+    // job, we run the risk of sending to contacts that the original email author
+    // should not have access to. So, check if ACLs are configured for this site
+    // and skip if they are.
+    $aclCount = \Civi\Api4\ACLEntityRole::get()
+      ->setLimit(1)
+      ->execute()->count();
+
+    if ($aclCount > 0) {
+      return;
+    }
+
     $mailings = $jobs = [];
     $currentTime = date('YmdHis');
     try {
