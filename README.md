@@ -2,8 +2,6 @@
 
 **Moved to https://lab.civicrm.org/extensions/civicrm-recalculate-recipients**
 
-Resources
-
 This extension causes the recipients of a mailing to be recalculated just before the mail is sent out, meaning you'll be sending based on the most up to date recipient list.
 
 CiviCRM's default behaviour is to calculate recipients for a mailing based on the contacts that are in your include/exclude groups/mailings at the time that you hit the submit button. Any subscriptions and un-subscriptions that happen between hitting the submit button and it being sent will not be reflected in the mailing. That works for some use cases but not for others. This extension alters the default behaviour.
