@@ -1,5 +1,7 @@
 # Recalculate recipients
 
+**Moved to https://lab.civicrm.org/extensions/civicrm-recalculate-recipients**
+
 This extension causes the recipients of a mailing to be recalculated just before the mail is sent out, meaning you'll be sending based on the most up to date recipient list.
 
 CiviCRM's default behaviour is to calculate recipients for a mailing based on the contacts that are in your include/exclude groups/mailings at the time that you hit the submit button. Any subscriptions and un-subscriptions that happen between hitting the submit button and it being sent will not be reflected in the mailing. That works for some use cases but not for others. This extension alters the default behaviour.
@@ -14,7 +16,7 @@ The extension has been in production at several organisations for years without 
 
 ### Not ACL friendly
 
-This extension is not ACL friendly. The CiviMail author's ACLs are not taken into account when the recipients are recalculated, meaning thie extension does not limit to the contacts in a group that the user scheduling a mailing is able to view (see [issue #1](https://github.com/3sd/civicrm-recalculate-recipients/issues/1) for more details).
+This extension is not ACL friendly. The CiviMail author's ACLs are not taken into account when the recipients are recalculated, meaning this extension does not limit to the contacts in a group that the user scheduling a mailing is able to view (see [issue #1](https://github.com/3sd/civicrm-recalculate-recipients/issues/1) for more details).
 
 Not not use it if you are relying on ACLs to limit the contacts to which CiviMail users can send
 
